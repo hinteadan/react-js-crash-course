@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ReactJS Web App</title>
+    <script src="bower_components/react/react.js"></script>
+    <script src="bower_components/react/react-dom.js"></script>
+    <script src="bower_components/babel-standalone/babel.js"></script>
+</head>
+<body>
+    Hello!
+
+    <div id="app"></div>
+
+    <script type="text/babel">
+        class App extends React.Component {
+            render() {
+                return (
+                    <div>Hello from the React Side</div>
+                    );
+            }
+        };
+
+        ReactDOM.render(<App />, document.getElementById('app'));
+    </script>
+
+</body>
+</html>
