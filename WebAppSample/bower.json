@@ -1,0 +1,21 @@
+{
+  "name": "WebAppSample",
+  "homepage": "https://github.com/hinteadan/react-js-crash-course",
+  "authors": [
+    "Hintee <dan.hintea@recognos.ro>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.6.1",
+    "jquery": "^3.2.1"
+  }
+}

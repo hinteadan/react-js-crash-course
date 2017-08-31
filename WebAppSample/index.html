@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Web App Sample</title>
+        <script src="react.js"></script>
+        <script src="react-dom.js"></script>
+    </head>
+    <body>
+        Hello!
+
+        <div id="myDiv"></div>
+
+        <script>
+            var App = React.createClass({
+                render: function(){
+                    return React.createElement('div', null, 'Hello from React');
+                }
+            });
+
+            ReactDOM.render(React.createElement(App), document.getElementById('myDiv'));
+        </script>
+    </body>
+</html>
